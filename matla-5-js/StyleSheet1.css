@@ -1,0 +1,18 @@
+﻿
+.container {
+    width: 600px;
+    height:700px;
+    border:1px solid black;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    background-color:antiquewhite;
+}
+.balance{
+    color:red;
+
+}
+h4{
+    color:blue;
+}
+

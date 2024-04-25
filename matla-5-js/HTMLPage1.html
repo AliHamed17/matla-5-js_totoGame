@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>טופס לוטו </title>
+
+    <link href="StyleSheet1.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <h1>טופס לוטו</h1>
+        <div class="balance">
+            <h2>תקציב: <span id="user-balance">1000</span>שח</h2>
+        </div>
+        <div id="lottery-form">
+            <h2>!!התחלת ההגרלה בהצלחה  </h2>
+            <div>
+                <h4><label for="power-number">:תבחר מספר חזק מ 1-7</label></h4><br>
+                <input type="number" id="power-number" >
+            </div>
+            <div>
+                <h4> <label class="numbers">תבחר 6 מספרים מ 1-37 </label></h4><br>
+                <input type="number" class="number-input" >
+                <input type="number" class="number-input" >
+                <input type="number" class="number-input"  >
+                <input type="number" class="number-input" >
+                <input type="number" class="number-input"  >
+                <input type="number" class="number-input" >
+            </div>
+            <button type="button" id="check-button">בדיקת ההגרלה</button>
+            <button type="button" id="finish-button">סיים הגרלות</button>
+        </div>
+        <div id="results">
+
+        </div>
+    </div>
+
+
+    <script src="Script1.js"></script>
+</body>
+</html>
